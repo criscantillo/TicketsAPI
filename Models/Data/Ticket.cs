@@ -10,7 +10,7 @@ namespace TicketsAPI.Models.Data
         public string Title { get; set; }
         [Required]
         public string Comment { get; set; }
-        [Required(ErrorMessage = "Por favor Ingresar el código del usuario")]
+        [UserValidate(ErrorMessage = "Por favor Ingresar un código de usuario válido")]
         [ForeignKey("UserId")]
         public string UserId { get; set; }
         [Required]

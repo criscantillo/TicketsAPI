@@ -18,6 +18,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(
     });
 
 builder.Services.AddTransient<ITicketRepository, TicketRepository>();
+builder.Services.AddTransient<IUserRepository, UserRepository>();
 builder.Services.AddGraphQLServer()
     .AddQueryType<Query>()
     .AddProjections()
