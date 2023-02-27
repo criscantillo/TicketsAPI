@@ -11,10 +11,10 @@ $ git clone https://github.com/criscantillo/TicketsAPI.git
 $ cd TicketsAPI
 ```
 
-## Modificar la cadena de conexi髇
+## Modificar la cadena de conexi贸n
 
-Para establecer la comunicaci髇 con la base de datos, 
-se debe modificar la cadena de conexi髇 en el archivo appsettings.json
+Para establecer la comunicaci贸n con la base de datos, 
+se debe modificar la cadena de conexi贸n en el archivo appsettings.json
 
 ```json
 "ConnectionStrings": {
@@ -23,7 +23,7 @@ se debe modificar la cadena de conexi髇 en el archivo appsettings.json
 ```
 
 
-## Aplicar la Migraci髇 con Entity Framework
+## Aplicar la Migraci贸n con Entity Framework
 
 Abrir la consola de adminsitrador de paquetes
 
@@ -31,3 +31,6 @@ Abrir la consola de adminsitrador de paquetes
 $ update-database
 ```
 
+## GraphQl
+
+Para acceder a esta vista, se ingresa a la ruta https://localhost:xxxx/graphql
